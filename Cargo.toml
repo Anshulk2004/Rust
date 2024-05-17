@@ -3,4 +3,30 @@ name = "rust-project"
 version = "0.1.0"
 edition = "2021"
 
+
+[[bin]]
+name = "array"
+path = "src/bin/data/Array.rs"
+
+[[bin]]
+name = "compound_types"
+path = "src/bin/data/CompoundType.rs"
+
+[[bin]]
+name = "data_types"
+path = "src/bin/data/DataTypes.rs"
+
+[[bin]]
+name = "operations"
+path = "src/bin/data/Operations.rs"
+
+[[bin]]
+name = "functions"
+path = "src/bin/functions/Functions.rs"
+
+[[bin]]
+name = "conditions"
+path = "src/bin/ControlFlow/f.rs"
+
 [dependencies]
+
