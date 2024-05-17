@@ -28,5 +28,9 @@ path = "src/bin/functions/Functions.rs"
 name = "conditions"
 path = "src/bin/ControlFlow/f.rs"
 
+[[bin]]
+name = "loopconditions"
+path = "src/bin/ControlFlow/loop.rs"
+
 [dependencies]
 
